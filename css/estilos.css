@@ -1,6 +1,12 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+/*ATENÇÃO*/
+
+/*PARA SE FAZER A CENTRALIZAÇÃO DE ALGUM ITEM EXATAMENTE NO 
+CENTRO, É PRECISO DIZER À DIV PAI QUE ELA SERÁ DISPLAY: FLEX,
+A PARTIR DISTO, É SÓ VOCÊ ATRIBUIR AO OBJETO QUE QUER 
+CENTRALIZAR MARGIN: AUTO*/
 
 
 *{
@@ -13,18 +19,21 @@ body{
 	background-color: black;
 }
 
-#cabecalho > img{
-	width: 200px;
-	position: absolute;
-	left: 690px;
-	top: 50px;
+#cabecalho{
+	text-align: center;
+}
 
+#cabecalho > img{
+	position: absolute;
+	transform: translateX(-50%) translateY(60%);
 }
 
 section{
 	background-color: white;
-	width: 100%;
-	height: 900px;
+	width: 174vh;
+	overflow: hidden;
+	height: 100vh;
+	display: flex;
 }
 
 .preto{
@@ -39,12 +48,11 @@ section{
 
 /*PRIMEIRA PÁGINA*/
 div#box{
-	width: 1439px;
-	height: 690px;
+	width: 1400px;
+	height: 550px;
 	background: url('../imagens/pessoas.png') no-repeat;
-	float: right;
-	margin-top: 160px;
-	margin-right: 70px;
+	margin: auto;
+	background-position-x: 90%;
 }
 
 div#texto-imagem{
@@ -56,7 +64,7 @@ div#texto-imagem{
 .conteudo{
 	text-align: center;
 	width: 644px;
-	margin-left: 80px;
+	margin-left: 25px;
 	margin-top: 80px;
 }
 
@@ -99,18 +107,16 @@ a.btn-2{
 }
 
 a.btn-2:hover{
-	background-color: rgba(71, 71, 71, 0.5);
+	background-color: rgba(71, 71, 71, 0.2);
 }
 
 
 /*SEGUNDA PÁGINA*/
 
 #box2{
-	width: 940px;
+	width: 1200px;
 	height: 411px;
-	position: relative;
-	top: 240px;
-	left: 145px;
+	margin: auto;
 	background: url('../imagens/note1.png') no-repeat;
 }
 
@@ -119,7 +125,7 @@ a.btn-2:hover{
 	width: 600px;
 	float: right;
 	top: 145px;
-	left: 300px;
+	left: 50px;
 }
 
 .textos > h2{
@@ -137,9 +143,7 @@ a.btn-2:hover{
 
 #box3{
 	width: 1200px;
-	margin: 0 auto;
-	position: relative;
-	top: 250px;
+	margin: auto;
 }
 
 #box3 > img{
@@ -168,11 +172,9 @@ a.btn-3{
 
 /*QUARTA PÁGINA*/
 #box4{
-	width: 940px;
-	height: 411px;
-	position: relative;
-	top: 240px;
-	left: 180px;
+	width: 1200px;
+	height: 370px;
+	margin: auto;
 	background: url('../imagens/note2.png') no-repeat;
 }
 
@@ -181,7 +183,7 @@ a.btn-3{
 	width: 600px;
 	float: right;
 	top: 145px;
-	left: 250px;
+	left: -10px;
 }
 
 /*QUINTA PÁGINA*/
@@ -199,9 +201,7 @@ ul#lista-itens > li{
 #box5{
 	width: 1200px;
 	text-align: center;
-	margin: 0 auto;
-	position: relative;
-	top: 260px;
+	margin: auto;
 }
 
 #box5 > h1{
@@ -273,6 +273,7 @@ form#formulario > h2{
 /*RODAPÉ*/
 footer#rodape{
 	clear: both;
+	
 }
 
 #box7{
@@ -299,6 +300,12 @@ footer#rodape{
 #box7 > span{
 	margin: 50px;
 	color: #969696;
+}
+
+
+div#organizacao{
+	margin: auto;
+	height: 900px;
 }
 
 
