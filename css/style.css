@@ -41,7 +41,7 @@ section{
 div#box{
 	width: 1439px;
 	height: 690px;
-	background: url('../_imagens/pessoas.png') no-repeat;
+	background: url('../imagens/pessoas.png') no-repeat;
 	float: right;
 	margin-top: 160px;
 	margin-right: 70px;
@@ -50,7 +50,7 @@ div#box{
 div#texto-imagem{
 	width: 644px;
 	height: 135px;
-	background: url('../_imagens/textoImagem.png');
+	background: url('../imagens/textoImagem.png');
 }
 
 .conteudo{
@@ -111,7 +111,7 @@ a.btn-2:hover{
 	position: relative;
 	top: 240px;
 	left: 145px;
-	background: url('../_imagens/note1.png') no-repeat;
+	background: url('../imagens/note1.png') no-repeat;
 }
 
 .textos{
@@ -173,7 +173,7 @@ a.btn-3{
 	position: relative;
 	top: 240px;
 	left: 180px;
-	background: url('../_imagens/note2.png') no-repeat;
+	background: url('../imagens/note2.png') no-repeat;
 }
 
 #box4 > .textos{
