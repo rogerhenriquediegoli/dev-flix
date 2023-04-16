@@ -1,0 +1,311 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Inter', sans-serif;
+	color: white;
+}
+body{
+	background-color: black;
+}
+
+header#cabecalho{
+
+}
+#cabecalho > img{
+	width: 200px;
+	position: absolute;
+	left: 690px;
+	top: 50px;
+
+}
+
+section{
+	background-color: white;
+	width: 100%;
+	height: 900px;
+}
+
+.preto{
+	background-color: black;
+}
+
+.cinza{
+	background-color: #222634;
+}
+
+
+
+/*PRIMEIRA PÁGINA*/
+div#box{
+	width: 1439px;
+	height: 690px;
+	background: url('../_imagens/pessoas.png') no-repeat;
+	float: right;
+	margin-top: 160px;
+	margin-right: 70px;
+}
+
+div#texto-imagem{
+	width: 644px;
+	height: 135px;
+	background: url('../_imagens/textoImagem.png');
+}
+
+.conteudo{
+	text-align: center;
+	width: 644px;
+	margin-left: 80px;
+	margin-top: 80px;
+}
+
+.conteudo > p{
+	font-size: 19pt;
+	font-weight: bold;
+	margin-bottom: 20px;
+	width: 600px;
+}
+.conteudo > h4{
+	color: #969696;
+	font-size: 10pt;
+	font-weight: normal;
+	margin-top: 30px;
+}
+
+a.btn-1{
+	padding: 20px;
+	padding-left: 140px;
+	padding-right: 140px;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: #009748;
+	transition: background-color 0.4s;
+}
+
+a.btn-1:hover{
+	background-color: #00823e;
+}
+
+a.btn-2{
+	padding: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: transparent;
+	border: 1px solid white;
+	transition: background-color 0.4s;
+}
+
+a.btn-2:hover{
+	background-color: rgba(71, 71, 71, 0.5);
+}
+
+
+/*SEGUNDA PÁGINA*/
+
+#box2{
+	width: 940px;
+	height: 411px;
+	position: relative;
+	top: 240px;
+	left: 145px;
+	background: url('../_imagens/note1.png') no-repeat;
+}
+
+.textos{
+	position: relative;
+	width: 600px;
+	float: right;
+	top: 145px;
+	left: 300px;
+}
+
+.textos > h2{
+	font-size: 30pt;
+}
+
+
+.textos > p{
+	color: #969696;
+	font-size: 12pt;
+}
+
+
+/*TERCEIRA PÁGINA*/
+
+#box3{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	top: 250px;
+}
+
+#box3 > img{
+	float: right;
+}
+
+#box3 > span{
+	float: left;
+	text-align: center;
+	width: 600px;
+	margin-top: 50px;
+	font-size: 11pt;
+}
+span > p{
+	color: #969696;
+	line-height: 22px;
+}
+
+a.btn-3{
+	padding: 15px;
+	padding-right: 190px;
+	padding-left: 190px;
+}
+
+
+
+/*QUARTA PÁGINA*/
+#box4{
+	width: 940px;
+	height: 411px;
+	position: relative;
+	top: 240px;
+	left: 180px;
+	background: url('../_imagens/note2.png') no-repeat;
+}
+
+#box4 > .textos{
+	position: relative;
+	width: 600px;
+	float: right;
+	top: 145px;
+	left: 250px;
+}
+
+/*QUINTA PÁGINA*/
+
+ul#lista-itens{
+	list-style: none;
+	margin-top: 20px;
+}
+
+ul#lista-itens > li{
+	display: inline-block;
+	margin: 20px;
+}
+
+#box5{
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 260px;
+}
+
+#box5 > h1{
+	font-size: 35pt;
+	font-weight: bolder;
+}
+
+figure > figcaption{
+	font-size: 20pt;
+	font-weight: bolder;
+}
+
+/*SEXTA PÁGINA*/
+
+#box6{
+	margin: 0 auto;
+	width: 700px;
+}
+
+form#formulario{
+	position: relative;
+	margin: 0 auto;
+	top: 50px;
+	text-align: center;
+}
+
+form#formulario > h2{
+	font-size: 25pt;
+} 
+
+.texto-input{
+	width: 400px;
+	margin-top: 20px;
+	background-color: transparent;
+	border: 1px solid white;
+	text-align: center;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.area-dig{
+	width: 400px;
+	height: 150px;
+	margin-top: 20px;
+	background-color: transparent;
+	border: 1px solid white;
+	text-align: center;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.btn-submit{
+	width: 430px;
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	border: none;
+	background-color: #009748;
+	transition: background-color 0.4s;
+}
+
+
+.btn-submit:hover{
+	cursor: pointer;
+	background-color: #00823e;
+}
+
+
+/*RODAPÉ*/
+footer#rodape{
+	clear: both;
+}
+
+#box7{
+	position: relative;
+	top: 150px;
+	margin: 0 auto;
+	text-align: center;
+	width: 1300px;
+}
+#box7 > img{
+	margin-bottom: 40px;
+}
+
+
+#box7 > a{
+	margin-left: 13px;
+	text-decoration: none;
+}
+
+#box7 > a:hover{
+	text-decoration: underline;
+}
+
+#box7 > span{
+	margin: 50px;
+	color: #969696;
+}
+
+
+
+
+
+
