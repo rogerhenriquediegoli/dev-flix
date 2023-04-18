@@ -235,7 +235,7 @@ form#formulario > h2{
 .texto-input{
 	width: 400px;
 	margin-top: 20px;
-	background-color: transparent;
+	background-color: #2E3447;
 	border: 1px solid white;
 	text-align: center;
 	padding: 15px;
@@ -246,7 +246,7 @@ form#formulario > h2{
 	width: 400px;
 	height: 150px;
 	margin-top: 20px;
-	background-color: transparent;
+	background-color: #2E3447;
 	border: 1px solid white;
 	text-align: center;
 	padding: 15px;
