@@ -30,7 +30,7 @@ body{
 
 section{
 	background-color: white;
-	width: 174vh;
+	width: 100%;
 	overflow: hidden;
 	height: 100vh;
 	display: flex;
